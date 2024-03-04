@@ -1,6 +1,6 @@
 <template>
-    <router-link :to="`/${item.href}`">
-        <div>{{ item.name }}</div>
+    <router-link to="/devices" class="navbar-item" active-class="active">
+        Devices
     </router-link>
 </template>
 
