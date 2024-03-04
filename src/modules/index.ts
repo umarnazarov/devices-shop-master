@@ -1,7 +1,7 @@
-import { initHomeModule } from "@/modules/home";
+import { initDevicesModule } from "@/modules/devices";
 import { initAuthModule } from "./auth";
 
 export default (opts: any) => {
-  initHomeModule(opts);
+  initDevicesModule(opts);
   initAuthModule(opts);
 };
