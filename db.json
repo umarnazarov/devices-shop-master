@@ -1,0 +1,122 @@
+{
+  "devices": [
+    {
+      "id": "3",
+      "model": "Google Pixel s22222",
+      "yearOfRelease": 1609459200000,
+      "category": "Smartphone",
+      "dateOfAdd": 1648876800000,
+      "isVisible": false,
+      "price": "12"
+    },
+    {
+      "id": "4",
+      "model": "iPad Pro",
+      "yearOfRelease": 1580515200000,
+      "category": "Tablet",
+      "dateOfAdd": 1648876800000,
+      "isVisible": true
+    },
+    {
+      "id": "6",
+      "model": "Sony PlayStation 5",
+      "yearOfRelease": 1606128000000,
+      "category": "Laptop",
+      "dateOfAdd": 1648876800000,
+      "isVisible": true
+    },
+    {
+      "id": "8",
+      "model": "Fitbit Charge 4",
+      "yearOfRelease": 1588291200000,
+      "category": "Tablet",
+      "dateOfAdd": 1648876800000,
+      "isVisible": true
+    },
+    {
+      "id": "9",
+      "model": "Canon EOS R5",
+      "yearOfRelease": 1593561600000,
+      "category": "Smartphone",
+      "dateOfAdd": 1648876800000,
+      "isVisible": false
+    },
+    {
+      "id": "10",
+      "model": "Nintendo Switch",
+      "yearOfRelease": 1483228800000,
+      "category": "Laptop",
+      "dateOfAdd": 1648876800000,
+      "isVisible": false
+    },
+    {
+      "id": "12",
+      "model": "LG OLED CX Series",
+      "yearOfRelease": 1580515200000,
+      "category": "Tablet",
+      "dateOfAdd": 1648876800000,
+      "isVisible": false
+    },
+    {
+      "id": "13",
+      "model": "Apple Watch Series 6",
+      "yearOfRelease": 1601308800000,
+      "category": "Smartphone",
+      "dateOfAdd": 1648876800000,
+      "isVisible": true
+    },
+    {
+      "id": "15",
+      "model": "GoPro HERO9 Black",
+      "yearOfRelease": 1601308800000,
+      "category": "Tablet",
+      "dateOfAdd": 1648876800000,
+      "isVisible": true
+    },
+    {
+      "id": 1709497091905,
+      "category": "Smartphone",
+      "dateOfAdd": 1709497091906,
+      "isVisible": false,
+      "model": "sda",
+      "yearOfRelease": 1709497091906
+    },
+    {
+      "id": 1709497935396,
+      "model": "12",
+      "yearOfRelease": 2024,
+      "dateOfAdd": 1709497935396,
+      "category": "Smartphone",
+      "isVisible": false
+    },
+    {
+      "id": 1709499146666,
+      "model": "asd",
+      "yearOfRelease": 2024,
+      "dateOfAdd": 1709499146666,
+      "category": "Tablet",
+      "isVisible": false
+    }
+  ],
+  "devicesFilterOptions": [
+    {
+      "value": "Smartphone",
+      "text": "Smartphone",
+      "id": "b46c"
+    },
+    {
+      "value": "Tablet",
+      "text": "Tablet",
+      "id": "478a"
+    },
+    {
+      "value": "Laptop",
+      "text": "Laptop",
+      "id": "5a3c"
+    }
+  ],
+  "user": {
+    "username": "Admin",
+    "password": "admin"
+  }
+}
