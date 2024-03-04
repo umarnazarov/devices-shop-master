@@ -25,5 +25,10 @@ module.exports = {
     sourceType: "module",
   },
   plugins: ["@typescript-eslint", "vue"],
-  rules: {},
+  rules: {
+    "@typescript-eslint/no-explicit-any": "off",
+    eqeqeq: "error",
+    "no-console": "off",
+    "no-multiple-empty-lines": ["error", { max: 2, maxEOF: 1 }],
+  },
 };

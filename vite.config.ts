@@ -9,4 +9,7 @@ export default defineConfig({
       "@": "/src",
     },
   },
+  define: {
+    __VUE_PROD_HYDRATION_MISMATCH_DETAILS__: true,
+  },
 });
