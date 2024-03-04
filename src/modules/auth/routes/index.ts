@@ -17,7 +17,7 @@ const routes: RouteRecordRaw[] = [
     component: () => import("../views/sign-in.vue"),
     beforeEnter() {
       const { isAuthenticated } = useAuth();
-      return isAuthenticated() ? { name: AppRouteName.HOME_ROUTE } : true;
+      return isAuthenticated() ? { name: AppRouteName.DEVICES_ROUTE } : true;
     },
   },
 ];
