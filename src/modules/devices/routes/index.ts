@@ -13,12 +13,9 @@ const routes: RouteRecordRaw[] = [
     name: DevicesRouteName.DEVICES,
     meta: {
       layout: LayoutName.DEFAULT_LAYOUT,
+      requiresAuthentication: true,
     },
     component: () => import("../views/devices.vue"),
-    beforeEnter() {
-      const { isAuthenticated } = useAuth();
-      return isAuthenticated() ? true : { name: AuthRouteName.SIGN_IN };
-    },
   },
 ];
 
